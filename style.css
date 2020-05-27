@@ -1,0 +1,62 @@
+  body {
+    margin:0;
+  }
+ a {
+   color:black;
+   text-decoration: none;
+ }
+ #right {
+   border-right:0px solid black;
+   width:150px;
+   padding:20px;
+   margin:0;
+ }
+ h1 {
+    font-family: Helvetica;
+    font-size: 24px;
+    text-align: left;
+    font-weight: lighter;
+    border-bottom:1px solid black;
+    padding:10px;
+    margin:0;
+    display:block;
+ }
+ h2 {
+    font-family: Helvetica;
+    font-size: 15px;
+    text-align: left;
+    font-weight: lighter;
+    padding:5px;
+    margin:0;
+    display:block;
+ }
+ #active {
+   color:red
+ }
+ .saw {
+   font-family: Helvetica;
+   font-size: 12px;
+   text-align: left;
+   font-weight: lighter;
+   color:gray;
+   font-style: italic;
+ }
+ .project {
+   font-family: Helvetica;
+   font-size: 15px;
+   text-align: left;
+   font-weight: normal;
+   color:black;
+ }
+ #grid {
+   display:grid;
+   grid-template-columns: 1fr 6fr;
+ }
+ @media(max-width:800px) {
+   #grid{
+     display: block;
+   }
+   h1 {
+      border-bottom:none;
+    }
+ }
